@@ -35,6 +35,7 @@ This document should link to all work happening at the sprint. Links to PR's and
 - Training Data
   - [OSM Generated Training Data](http://demo-mlhub-earth.s3-website-us-west-2.amazonaws.com)
   - [Landcover Classification / Building Footprints / African Crops](http://browser.radiant.earth)
+* Began creating a lidar based static STAC catalog. Still needs work to start bringing in more lidar specific information. Initial attempt is at https://coast.noaa.gov/htdata/lidar1_z/geoid12b/stac/4800/catalog.json, but will move soon, probably under https://coast.noaa.gov/htdata/lidar_stac. Main work was on learning pystac and using to recursively drill the existing data.
   
 ## Core
 * [Aligned STAC-specific endpoints more with OAF](https://github.com/radiantearth/stac-spec/pull/632) - also mentioned in a related [OAF issue](https://github.com/opengeospatial/ogcapi-features/issues/154).
